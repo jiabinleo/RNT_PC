@@ -1,0 +1,357 @@
+html,
+body {
+  width: 100%;
+  min-width: 1200px;
+  user-select: none;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 111;
+}
+header .header-wrap {
+  margin: 0 auto;
+  height: 50px;
+  width: 1220px;
+  line-height: 50px;
+}
+header .header-wrap a {
+  color: #d3d3d3;
+}
+header .header-wrap a .header-logo {
+  float: left;
+  width: 321px;
+}
+header .header-wrap a .header-logo img {
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-left: 8px;
+}
+header .header-wrap .header-title {
+  float: right;
+}
+header .header-wrap .header-title ul {
+  overflow: hidden;
+}
+header .header-wrap .header-title ul li {
+  float: left;
+  margin-left: 50px;
+}
+header .header-wrap .header-title ul li a span {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+}
+header .header-wrap .header-title ul li a span.active {
+  color: #1a9de1;
+}
+header .header-wrap .header-title ul li a span:hover {
+  color: #1a9de1;
+}
+header .header-wrap .header-title ul li:last-of-type .produce {
+  border-radius: 5px;
+  width: 100px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce span {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content {
+  background-color: #ffffff;
+  height: 0;
+  width: 100px;
+  margin-top: -2px;
+  margin-left: -20px;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a span {
+  display: inline-block;
+  width: 98px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:first-of-type span {
+  width: 100px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:first-of-type:hover span {
+  border: none;
+  width: 100px;
+  background-color: #d3d3d3;
+  color: #ffffff;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:nth-of-type(2) span {
+  width: 100px;
+  border-radius: 0 0 5px 5px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:nth-of-type(2):hover span {
+  width: 100px;
+  border: none;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce:hover .produce-title span {
+  color: #1a9de1;
+}
+section {
+  margin-top: 50px;
+  width: 100%;
+}
+section .banner img {
+  width: 100%;
+}
+section .content {
+  width: 1200px;
+  margin: 0 auto;
+}
+section .content .titleOne {
+  margin-top: 50px;
+}
+section .content .titleOne p {
+  color: #333333;
+  text-align: center;
+  font-weight: inherit;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "微软雅黑";
+}
+section .content .titleOne p span {
+  font-size: 24px;
+}
+section .content .contentOne {
+  margin-top: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+section .content .contentOne .contentOne-left {
+  padding: 3% 0;
+  float: left;
+  width: 47%;
+  font-size: 12px;
+  color: #333333;
+  line-height: 28px;
+}
+section .content .contentOne .contentOne-left.contentOne-left-first {
+  padding-top: 0%;
+}
+section .content .contentOne .contentOne-left .about-bold {
+  font-size: 14px;
+  font-weight: bold;
+}
+section .content .contentOne .content-right {
+  padding: 0%;
+  float: left;
+  width: 47%;
+  overflow: hidden;
+  max-width: 586px;
+}
+section .content .contentOne .content-right img {
+  width: 100%;
+}
+section .content .contentOne .marginLeft {
+  margin-left: 3%;
+}
+section .content .marginTop0 {
+  margin-top: 0;
+}
+section .content .wrap {
+  width: 100%;
+}
+section .content .wrap .wrap-left {
+  width: 32px;
+  float: left;
+}
+section .content .wrap .wrap-left .bgleft {
+  width: 20px;
+  height: 360px;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+}
+section .content .wrap .wrap-left .bgleft img {
+  margin: 215px 25px;
+  cursor: pointer;
+}
+section .content .wrap .wrap-content {
+  width: 1110px;
+  float: left;
+  padding-top: 30px;
+}
+section .content .wrap .wrap-content .wrap-inner {
+  overflow: hidden;
+}
+section .content .wrap .wrap-content .wrap-inner ul {
+  margin-left: 0px;
+  width: 1488px;
+  transition: 1s;
+  overflow: hidden;
+}
+section .content .wrap .wrap-content .wrap-inner ul li {
+  float: left;
+  width: 374px;
+  margin-right: -3px;
+}
+section .content .wrap .wrap-content .wrap-inner ul li p {
+  font-family: "PingFang";
+}
+section .content .wrap .wrap-content .wrap-inner ul li p:first-of-type {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: oblique;
+  line-height: 30px;
+  color: #999999;
+}
+section .content .wrap .wrap-content .wrap-inner ul li p:nth-of-type(2) {
+  font-size: 24px;
+  line-height: 60px;
+}
+section .content .wrap .wrap-content .wrap-inner ul li p:nth-of-type(3) {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border-left: solid 3px #cccccc;
+  border-right: solid 3px #cccccc;
+  border-bottom: solid 5px #cccccc;
+}
+section .content .wrap .wrap-content .wrap-inner ul li p:last-of-type {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+  padding: 10px 50px 30px 5px;
+}
+section .content .wrap .wrap-content .wrap-inner ul li.active {
+  position: relative;
+  z-index: 110;
+}
+section .content .wrap .wrap-content .wrap-inner ul li.active p:first-of-type {
+  background-image: -webkit-gradient(linear, 0 0, 180 bottom, from(#1a9de1), to(#34bbf0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section .content .wrap .wrap-content .wrap-inner ul li.active p:nth-of-type(3) {
+  width: 100%;
+  height: 30px;
+  border-left: solid 3px #1a9de1;
+  border-right: solid 3px #1a9de1;
+  border-bottom: solid 5px #1a9de1;
+}
+section .content .wrap .wrap-content .wrap-inner ul li.active p:nth-of-type(3) span {
+  position: absolute;
+  display: inline-block;
+  width: 3px;
+  height: 8px;
+  bottom: -8px;
+  right: 0;
+  background-color: #1a9de1;
+  border-radius: 1px;
+  border: solid 2px #ffffff;
+  box-shadow: 0 0 10px 3px rgba(26, 157, 225, 0.2);
+}
+section .content .wrap .wrap-content .wrap-inner ul li.active p:last-of-type {
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+  padding: 10px 50px 30px 5px;
+}
+section .content .wrap .wrap-right {
+  width: 32px;
+  float: left;
+}
+section .content .wrap .wrap-right .bgright {
+  width: 20px;
+  height: 360px;
+}
+section .content .wrap .wrap-right .bgright img {
+  margin: 124px 35px;
+  cursor: pointer;
+}
+section .content .contactUs ul {
+  overflow: hidden;
+  padding: 92px 5px 80px;
+}
+section .content .contactUs ul li {
+  box-sizing: border-box;
+  width: 277px;
+  height: 240px;
+  border: 1px solid #eeeeee;
+  float: left;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+section .content .contactUs ul li:first-of-type {
+  margin-left: 0;
+}
+section .content .contactUs ul li div {
+  width: 68px;
+  height: 68px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 30px auto;
+  margin-bottom: 15px;
+}
+section .content .contactUs ul li p {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  line-height: 30px;
+}
+section .content .contactUs ul li p:last-of-type {
+  color: #666666;
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0 25px;
+}
+section .content .contactUs ul li .textLeft {
+  text-align: left;
+}
+footer {
+  padding-left: 16%;
+  overflow: hidden;
+  background: -webkit-linear-gradient(0deg, #1a9de1, #34bbf0);
+  padding-bottom: 50px;
+}
+footer .left-txt {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  float: left;
+  width: 70%;
+  font-size: 12px;
+  color: #ffffff;
+}
+footer .left-txt p {
+  line-height: 28px;
+}
+footer .left-txt p a {
+  color: #ffffff;
+}
+footer .right-txt {
+  float: right;
+  margin-top: 30px;
+  margin-right: 18%;
+}
+footer .right-txt img {
+  width: 80px;
+  height: 80px;
+}
+.fantop {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 110;
+  color: black;
+  display: none;
+  cursor: pointer;
+}

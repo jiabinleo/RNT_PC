@@ -1,0 +1,194 @@
+html,
+body {
+  width: 100%;
+  min-width: 1200px;
+  user-select: none;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 111;
+  .header-wrap {
+    margin: 0 auto;
+    height: 50px;
+    width: 1220px;
+    line-height: 50px;
+    a {
+      color: #d3d3d3;
+      .header-logo {
+        float: left;
+        height: 505px;
+        width: 321px;
+        img {
+          vertical-align: middle;
+          margin-top: -3px;
+          margin-left: 8px;
+        }
+      }
+    }
+    .header-title {
+      float: right;
+      ul {
+        overflow: hidden;
+        li {
+          float: left;
+          margin-left: 50px;
+          a {
+            span {
+              font-size: 14px;
+              color: #666666;
+              font-weight: bold;
+              &.active {
+                color: #1a9de1;
+              }
+              &:hover {
+                color: #1a9de1;
+              }
+            }
+          }
+          &:last-of-type {
+            .produce {
+              border-radius: 5px;
+              width: 100px;
+              span {
+                font-size: 14px;
+                color: #666666;
+                font-weight: bold;
+              }
+              .produce-content {
+                background-color: #ffffff;
+                height: 0;
+                width: 100px;
+                margin-top: -2px;
+                margin-left: -20px;
+                text-align: center;
+                border-radius: 0 0 5px 5px;
+                overflow: hidden;
+                a {
+                  span {
+                    display: inline-block;
+                    width: 98px;
+                  }
+
+                  &:first-of-type {
+                    span {
+                      width: 100px;
+                    }
+
+                    &:hover {
+                      span {
+                        border: none;
+                        width: 100px;
+                        background-color: #d3d3d3;
+                        color: #ffffff;
+                      }
+                    }
+                  }
+                  &:nth-of-type(2) {
+                    span {
+                      width: 100px;
+                      border-radius: 0 0 5px 5px;
+                    }
+                    &:hover {
+                      span {
+                        width: 100px;
+                        border: none;
+                        background-color: #d3d3d3;
+                        color: #ffffff;
+                        border-radius: 0px 0px 5px 5px;
+                      }
+                    }
+                  }
+                }
+              }
+              &:hover {
+                .produce-title {
+                  span {
+                    color: #1a9de1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+section {
+  margin-top: 50px;
+  width: 100%;
+  .banner {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .phone {
+      position: absolute;
+      width: 9%;
+      height: 8%;
+      &.ios {
+        right: 29.5%;
+        bottom: 4.5%;
+      }
+      &.android {
+        right: 19%;
+        bottom: 4.5%;
+      }
+    }
+  }
+  .banner-list {
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+    ul {
+      width: 100%;
+      margin-left: -1.5px;
+      li {
+        font-size: 0;
+        width: 33.33%;
+        float: left;
+        a {
+          img {
+            width: 98%;
+            padding: 0 1%;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  padding-left: 16%;
+  overflow: hidden;
+  background: -webkit-linear-gradient(0deg, #1a9de1, #34bbf0);
+  margin-top: 10px;
+  padding-bottom: 50px;
+  .left-txt {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    color: #ffffff;
+    p {
+      line-height: 28px;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+  .right-txt {
+    float: right;
+    margin-top: 30px;
+    margin-right: 18%;
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

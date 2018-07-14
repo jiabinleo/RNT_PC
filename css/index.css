@@ -1,0 +1,172 @@
+html,
+body {
+  width: 100%;
+  min-width: 1200px;
+  user-select: none;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 111;
+}
+header .header-wrap {
+  margin: 0 auto;
+  height: 50px;
+  width: 1220px;
+  line-height: 50px;
+}
+header .header-wrap a {
+  color: #d3d3d3;
+}
+header .header-wrap a .header-logo {
+  float: left;
+  height: 505px;
+  width: 321px;
+}
+header .header-wrap a .header-logo img {
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-left: 8px;
+}
+header .header-wrap .header-title {
+  float: right;
+}
+header .header-wrap .header-title ul {
+  overflow: hidden;
+}
+header .header-wrap .header-title ul li {
+  float: left;
+  margin-left: 50px;
+}
+header .header-wrap .header-title ul li a span {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+}
+header .header-wrap .header-title ul li a span.active {
+  color: #1a9de1;
+}
+header .header-wrap .header-title ul li a span:hover {
+  color: #1a9de1;
+}
+header .header-wrap .header-title ul li:last-of-type .produce {
+  border-radius: 5px;
+  width: 100px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce span {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content {
+  background-color: #ffffff;
+  height: 0;
+  width: 100px;
+  margin-top: -2px;
+  margin-left: -20px;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a span {
+  display: inline-block;
+  width: 98px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:first-of-type span {
+  width: 100px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:first-of-type:hover span {
+  border: none;
+  width: 100px;
+  background-color: #d3d3d3;
+  color: #ffffff;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:nth-of-type(2) span {
+  width: 100px;
+  border-radius: 0 0 5px 5px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce .produce-content a:nth-of-type(2):hover span {
+  width: 100px;
+  border: none;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+}
+header .header-wrap .header-title ul li:last-of-type .produce:hover .produce-title span {
+  color: #1a9de1;
+}
+section {
+  margin-top: 50px;
+  width: 100%;
+}
+section .banner {
+  position: relative;
+}
+section .banner img {
+  width: 100%;
+}
+section .banner .phone {
+  position: absolute;
+  width: 9%;
+  height: 8%;
+}
+section .banner .phone.ios {
+  right: 29.5%;
+  bottom: 4.5%;
+}
+section .banner .phone.android {
+  right: 19%;
+  bottom: 4.5%;
+}
+section .banner-list {
+  width: 100%;
+  margin-top: 5px;
+  overflow: hidden;
+}
+section .banner-list ul {
+  width: 100%;
+  margin-left: -1.5px;
+}
+section .banner-list ul li {
+  font-size: 0;
+  width: 33.33%;
+  float: left;
+}
+section .banner-list ul li a img {
+  width: 98%;
+  padding: 0 1%;
+}
+footer {
+  padding-left: 16%;
+  overflow: hidden;
+  background: -webkit-linear-gradient(0deg, #1a9de1, #34bbf0);
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+footer .left-txt {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  float: left;
+  width: 70%;
+  font-size: 12px;
+  color: #ffffff;
+}
+footer .left-txt p {
+  line-height: 28px;
+}
+footer .left-txt p a {
+  color: #ffffff;
+}
+footer .right-txt {
+  float: right;
+  margin-top: 30px;
+  margin-right: 18%;
+}
+footer .right-txt img {
+  width: 80px;
+  height: 80px;
+}

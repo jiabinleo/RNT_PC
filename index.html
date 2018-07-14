@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="Shortcut Icon" href="./images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>悦农通，专注农业金融服务</title>
+    <script>
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                // 移动
+                location.href = 'http://www.yuenongtong.com/wap'
+            } else {
+                // PC
+                // location.href = "http://www.yuenongtong.com";
+            }
+        }
+        browserRedirect()
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap">
+            <a href="javascript:;">
+                <div class="header-logo">
+                    <img src="./images/logo-title.png" alt="">
+                </div>
+            </a>
+            <div class="header-title">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="active">首页</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./view/about/about.html">
+                            <span>关于我们</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="produce">
+                            <div class="produce-title">
+                                <span>
+                                    功能介绍
+                                </span>
+                            </div>
+                            <div class="produce-content">
+                                <a href="./view/Introduction/Introduction.html">
+                                    <span>
+                                        在线投保
+                                    </span>
+                                </a>
+                                <a href="./view/Introduction/Introduction2.html">
+                                    <span>
+                                        我要贷款
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+            <img src="./images/index/home-1.png" alt="">
+            <a href="">
+                <div class="phone ios" id="iosdown"></div>
+            </a>
+            <a href="">
+                <div class="phone android"></div>
+            </a>
+        </div>
+        <div class="banner-list">
+            <ul>
+                <li>
+                    <a href="./view/Introduction/Introduction.html">
+                        <img src="./images/index/home-2.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="./view/Introduction/Introduction2.html">
+                        <img src="./images/index/home-3.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./images/index/home-4.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="left-txt">
+            <p>
+                <a href target="view_frame">深圳市昆特科技有限公司</a>丨
+                <a href target="view_frame">中国气象局</a>丨
+                <a href target="view_frame">中国天气网</a>丨
+                <a href target="view_frame">中国科协官网</a>丨
+                <a href target="view_frame">安华农业</a>丨
+                <a href target="view_frame">深圳气象共创平台</a>丨
+                <a href target="view_frame">海南台风网</a>丨
+                <a href target="view_frame">等风来信息技术有限公司</a>
+            </p>
+            <p>粤ICP备15002532号 CreditEase 2017-2018 深圳市昆特科技有限公司版权所有</p>
+        </div>
+        <div class="right-txt">
+            <img src="./images/index/home-5.png" alt="">
+        </div>
+    </footer>
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/tools.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
